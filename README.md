@@ -1,4 +1,4 @@
-# UniSwap-Analysis
+# UniSwap P/L with Market Making Analysis
 
 This is a numerical model used to calculate percentage P/L for a Market Maker in the UniSwap Exchange, including the effect of the exchange trading fees.
 It performes an analysis to estimate what is the P/L of providing liquidity on Uniswap at an initial market price of $130 per ETH. The analysis assumes a MM who is providing a $100 of liquidity (50% as ETH and 50% as DAI) and calculates the P/L as the difference between the dollar value of the MM’s liquidity tokens after a certain amount of time and the dollar value of initial ETH/DAI without market making. To calculate the former, the model:
